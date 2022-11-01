@@ -370,8 +370,8 @@ color: var(--button-white-color);
 }
 
 .team-list .item .img-descr {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .team .team-member {
@@ -590,12 +590,12 @@ color: var(--button-white-color);
     justify-content: center;
 }
 
-.team-content {
-    margin-bottom: 16px;
+    .team-link{
+    padding-bottom: 42px;
 }
 
-.team-link{
-    padding-bottom: 42px;
+.team-content {
+    margin-bottom: 16px;
 }
 
 
@@ -721,13 +721,13 @@ fill:var(--button-white-color);
 
 .page-footer {
     display: flex;
-    gap: 70px;
+   
     align-items: baseline;
 }
 
 .footer-links-list {
     display: flex;
-    gap: 10px;
+
 }
 
 .footer-link-container-title {

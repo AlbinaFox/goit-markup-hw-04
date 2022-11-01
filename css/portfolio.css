@@ -484,13 +484,12 @@ body {
 
 .page-footer {
     display: flex;
-    gap: 70px;
     align-items: baseline;
 }
 
 .footer-links-list {
     display: flex;
-    gap: 10px;
+ 
 }
 
 .footer-link-container-title {
