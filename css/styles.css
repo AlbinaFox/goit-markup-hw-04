@@ -869,3 +869,8 @@ fill:var(--background-color);
      margin-bottom: 4px;
      margin-top: 0;
  }
+
+ .adress-list .item:not(:last-child){
+    margin-bottom: 9px;
+ }
+ 
