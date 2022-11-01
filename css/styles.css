@@ -155,7 +155,7 @@ color: var(--black);
 }
 
 .contact .link {
-    color: var(--primary-text-color);
+   color: var(--primary-text-color);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
@@ -675,7 +675,6 @@ margin-right: 30px;
 .clients-list-item:focus {
     border: 1px solid var(--accent-color);
 }
-
 .clients-item-link:hover .clients-icon,
 .clients-item-link:focus .clients-icon {
     fill: var(--accent-color);
@@ -693,14 +692,27 @@ margin-right: 30px;
 
 .clients-icon {
     display: block;
-    fill: #afb1b8;
+fill: #afb1b8;
 }
 
 /* --------------CLIENTS---------*/
 /* -------------FOOTER-----------*/
-.footer-links-item{
+.footer-social-link-icon {
+    fill: var(--background-color);
+}
+
+.footer-links-item:not(:nth-child(4n)){
 margin-right: 10px;
 }
+
+.footer-links-item{
+fill: var(--accent-color);
+}
+
+.footer-social-links{
+fill:var(--button-white-color);
+}
+
 .footer {
     background-color: var(--background-section);
     padding-top: 60px;
@@ -730,16 +742,14 @@ margin-right: 10px;
 }
 
 
-
-
 .footer-social-links {
-    background-color: rgba(255, 255, 255, 0.1);
+background-color: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
     border-radius: 50%;
     padding: 12px;
     display: flex;
-  
+
 }
 
 .footer-social-links:hover,
@@ -827,4 +837,9 @@ margin-right: 10px;
 }
   
 
- 
+
+
+
+ .footer-social-link-icon{
+fill:var(--background-color);
+ }
