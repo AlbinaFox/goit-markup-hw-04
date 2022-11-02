@@ -294,7 +294,7 @@ color: var(--button-white-color);
 .features {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+ 
 }
 
 .features .item {
@@ -516,7 +516,7 @@ color: var(--button-white-color);
 .features {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+ 
 }
 
 .features .item {
@@ -571,7 +571,6 @@ color: var(--button-white-color);
 .team-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .team-item {
@@ -585,7 +584,7 @@ color: var(--button-white-color);
 
 .team-link-list {
     display: flex;
-    gap: 10px;
+    
     align-items: center;
     justify-content: center;
 }
@@ -655,7 +654,7 @@ color: var(--button-white-color);
 .clients-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+
 }
 
 .clients-list-item {
@@ -812,7 +811,7 @@ background-color: rgba(255, 255, 255, 0.1);
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
 }
 
 .portfolio-list-item:hover,
@@ -832,7 +831,7 @@ background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    gap: 8px;
+
     flex-wrap: wrap;
 }
   

@@ -3,11 +3,6 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
 
 h1,
 h2,
@@ -583,7 +578,7 @@ body {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
 }
 
 .portfolio-list-item:hover,
@@ -611,6 +606,6 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    gap: 8px;
+ 
     flex-wrap: wrap;
 }
