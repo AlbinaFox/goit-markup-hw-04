@@ -474,6 +474,7 @@ color: var(--button-white-color);
 
 .portfolio-list .item .img-descr {
     border: 1px solid #EEEEEE;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
@@ -873,3 +874,7 @@ fill:var(--background-color);
     margin-bottom: 9px;
  }
  
+
+ .social-link{
+    margin-right: 10px;
+ }
